@@ -57,7 +57,7 @@ A aplicação consome dados da Rick and Morty API, permitindo que os usuários e
 1. Clone o repositório:
 
 ```bash
-git clone LINK_DO_REPOSITORIO
+git clone https://github.com/Brun0RFaria/API-Rick-Morty
 ```
 
 2. Acesse a pasta do projeto:
