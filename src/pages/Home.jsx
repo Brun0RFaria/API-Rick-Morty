@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Navbar from "./Navbar";
 import background from "../assets/imagens/imagemfundo.png";
 
 function Home() {
@@ -42,7 +41,6 @@ function Home() {
         padding: "20px",
       }}
     >
-      <Navbar />
 
       <header
         style={{

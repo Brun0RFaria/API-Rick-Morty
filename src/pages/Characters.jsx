@@ -1,5 +1,5 @@
+import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Navbar from "./Navbar";
 
 function Characters() {
   const [characters, setCharacters] = useState([]);
@@ -34,7 +34,6 @@ function Characters() {
         color: "white",
       }}
     >
-      <Navbar />
 
       <div
         style={{

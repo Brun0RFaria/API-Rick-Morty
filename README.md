@@ -1,16 +1,100 @@
-# React + Vite
+# Rick and Morty Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Alunos
 
-Currently, two official plugins are available:
+* Bruno Faria
+* Rian Diniz
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## API Utilizada
 
-## React Compiler
+Rick and Morty API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Documentação:
+https://rickandmortyapi.com/documentation
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Descrição do Projeto
+
+O Rick and Morty Explorer é uma Single Page Application (SPA) desenvolvida em React para a disciplina de Programação Frontend da UNIVAS.
+
+A aplicação consome dados da Rick and Morty API, permitindo que os usuários explorem personagens e episódios da série através de uma interface moderna e intuitiva.
+
+---
+
+## Funcionalidades Implementadas
+
+* Página inicial com apresentação do projeto
+* Listagem de personagens
+* Busca local de personagens
+* Página de detalhes dos personagens
+* Listagem de episódios
+* Busca local de episódios
+* Página de detalhes dos episódios
+* Menu de navegação utilizando React Router DOM
+* Rotas dinâmicas
+* Página Sobre
+* Página 404 para rotas inexistentes
+* Tratamento de loading
+* Tratamento de erros de requisição
+* Consumo de API através de camada de serviços
+
+---
+
+## Tecnologias Utilizadas
+
+* React
+* React Router DOM
+* JavaScript
+* CSS
+* Vite
+* Rick and Morty API
+
+---
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+
+```bash
+git clone LINK_DO_REPOSITORIO
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd API-Rick-Morty
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+5. Abra o navegador no endereço exibido pelo Vite.
+
+---
+
+## Estrutura do Projeto
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── assets/
+└── App.jsx
+```
+
+---
+
+## Link da API
+
+https://rickandmortyapi.com/documentation
